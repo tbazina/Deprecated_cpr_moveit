@@ -1,0 +1,15 @@
+digraph G {
+"geoJoint6" -> "gripperBody"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.205 Hz\nMost recent transform: 1474673890.178 ( -0.492 sec old)\nBuffer length: 4.940 sec\n"];
+"geoJoint5" -> "geoJoint6"[label="Broadcaster: /robot_state_publisher\nAverage rate: 20.106 Hz\nMost recent transform: 1474673889.681 ( 0.006 sec old)\nBuffer length: 4.924 sec\n"];
+"gripperBody" -> "gripperFinger1"[label="Broadcaster: /robot_state_publisher\nAverage rate: 20.106 Hz\nMost recent transform: 1474673889.681 ( 0.006 sec old)\nBuffer length: 4.924 sec\n"];
+"gripperBody" -> "gripperFinger2"[label="Broadcaster: /robot_state_publisher\nAverage rate: 20.106 Hz\nMost recent transform: 1474673889.681 ( 0.006 sec old)\nBuffer length: 4.924 sec\n"];
+"base_link" -> "geoJoint1"[label="Broadcaster: /robot_state_publisher\nAverage rate: 20.106 Hz\nMost recent transform: 1474673889.681 ( 0.006 sec old)\nBuffer length: 4.924 sec\n"];
+"geoJoint1" -> "geoJoint2"[label="Broadcaster: /robot_state_publisher\nAverage rate: 20.106 Hz\nMost recent transform: 1474673889.681 ( 0.006 sec old)\nBuffer length: 4.924 sec\n"];
+"geoJoint2" -> "geoJoint3"[label="Broadcaster: /robot_state_publisher\nAverage rate: 20.106 Hz\nMost recent transform: 1474673889.681 ( 0.006 sec old)\nBuffer length: 4.924 sec\n"];
+"geoJoint3" -> "geoJoint4"[label="Broadcaster: /robot_state_publisher\nAverage rate: 20.106 Hz\nMost recent transform: 1474673889.681 ( 0.006 sec old)\nBuffer length: 4.924 sec\n"];
+"geoJoint4" -> "geoJoint5"[label="Broadcaster: /robot_state_publisher\nAverage rate: 20.106 Hz\nMost recent transform: 1474673889.681 ( 0.006 sec old)\nBuffer length: 4.924 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1474673889.686"[ shape=plaintext ] ;
+ }->"base_link";
+}
