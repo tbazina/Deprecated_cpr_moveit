@@ -3,7 +3,7 @@
 <!-- The robot should be set to the four axis mover -->
  <param name="robot_type" value="mover4"/>
  
- <node name="cpr_mover" pkg="cpr_mover" type="cpr_mover"/>
+ <node name="cpr_mover" pkg="$(find cpr_mover)" type="cpr_mover"/>
 
   <!-- By default, we do not start a database (it can be large) -->
   <arg name="db" default="false" />
